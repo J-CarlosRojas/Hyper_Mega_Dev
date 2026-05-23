@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-black text-white">
       {/* Background Glow */}
-      <div className="absolute inset-0 bg-gradient-to-b from-cyan-500/10 via-transparent to-purple-500/10" />
+      <div className="absolute inset-0 bg-linear-to-b from-cyan-500/40 via-transparent to-purple-500/40" />
 
       {/* Content */}
       <div className="relative z-10 mx-auto flex max-w-4xl flex-col items-center px-6 text-center">
